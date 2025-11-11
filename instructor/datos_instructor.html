@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Datos del Aprendiz - SENA</title>
+</head>
+<body style="background-color: rgb(129, 214, 240); text-align: center;">
+
+    <h2 style="color: red;">Datos del Instructor - SENA</h2>
+
+    <form name= formu action="registroinstructor.php" method="post" enctype="multipart/form-data">
+        <table border="1" align="center" cellpadding="8" style="color: blue;">
+            <tr>
+                <th>Nombre<br>
+                <input type="text" name="nom"></th>
+            </tr>
+            <tr>
+                <th>Apellido<br>
+                <input type="text" name="ape"></th>
+            </tr>
+            <tr>
+                <th>Tipo de Documento<br>
+                    <select name="tdo">
+                        <option value="">-- Seleccione --</option>
+                        <option value="CC">Cédula de Ciudadanía</option>
+                        <option value="TI">Tarjeta de Identidad</option>
+                        <option value="CE">Cédula de Extranjería</option>
+                        <option value="PP">Pasaporte</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th>Número de Documento<br>
+                <input type="text" name="ndo"></th>
+            </tr>
+            <tr>
+                <th>Teléfono<br>
+                <input type="text" name="tel"></th>
+            </tr>
+            <tr>
+                <th>Foto Aprendiz<br>
+                <input type="file" name="foto"></th>
+            </tr>
+        </table>
+
+        <br>
+        <input type="submit" value="Guardar Datos Aprendiz">
+        <input type="reset" value="Limpiar Datos">
+        <br><br>
+        
+        <input type="button" value="Ir Menu Principal" onclick="window.location.href='index.html'">
+    </form>
+
+</body>
+</html>
