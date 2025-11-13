@@ -12,8 +12,8 @@
 require_once 'Conexion.php';
 
 //Adicionar un archivo o imagen de tipo gif, jpg, png, pdf, doc
-move_uploaded_file($_FILES['foto']['tmp_name'], 'imagenes/' . $_FILES['foto']['name']);
-$nomf = 'imagenes/' . $_FILES['foto']['name'];
+move_uploaded_file($_FILES['foto']['tmp_name'], 'imagenes_instructor/' . $_FILES['foto']['name']);
+$nomf = 'imagenes_instructor/' . $_FILES['foto']['name'];
 
 //insertar registro en la tabla aprendiz
 mysqli_query($conex, "insert into instructor(NOM_INS, APE_INS, TDO_INS, NDO_INS, TEL_INS, FOT_INS) values 
