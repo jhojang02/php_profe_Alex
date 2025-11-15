@@ -13,8 +13,8 @@
 
     <?php
     while ($reg = mysqli_fetch_array($registro)){
-        echo "<br>";
-        echo "<br><br><br><center><font face=tahoma color=blue><h3>Actualizar Foto de '$reg['NOM_APR']'</h3>";
+        echo '<br>';
+        echo '<br><br><br><center><font face=tahoma color=blue><h3>Actualizar Foto de '.$reg['NOM_APR'].' '.$reg['APE_APR'];
     ?>
 </body>
 </html>
