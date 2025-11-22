@@ -49,7 +49,7 @@
             </form>
         
         <?php
-        $$ff = $reg['FOT_APR'];
+        $ff = $reg['FOT_APR'];
         echo "<td><center><img src=\"$ff\" width='150' height='150'></img>";
         }
         else 
