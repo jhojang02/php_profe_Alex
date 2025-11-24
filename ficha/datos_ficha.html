@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Datos de la Ficha - SENA</title>
+</head>
+<body style="background-color: rgb(129, 214, 240); text-align: center;">
+
+    <h2 style="color: red;">Datos de la Ficha - SENA</h2>
+
+    <form name= formu action="registroficha.php" method="post" enctype="multipart/form-data">
+        <table border="1" align="center" cellpadding="8" style="color: blue;">
+            <tr>
+                <th>Nombre del instructor de la ficha<br>
+                <input type="text" name="nom"></th>
+            </tr>
+            <tr>
+                <th>Numero de la ficha<br>
+                <input type="text" name="num"></th>
+            </tr>
+            <tr>
+                <th>Numero de aprendices<br>
+                <input type="text" name="num_a"></th>
+            </tr>
+            <tr>
+                <th>Programa de Formacion<br>
+                <input type="text" name="prog"></th>
+            </tr>
+        </table>
+
+        <br>
+        <input type="submit" value="Guardar Datos Aprendiz">
+        <input type="reset" value="Limpiar Datos">
+        <br><br>
+        
+        <input type="button" value="Ir Menu Principal" onclick="window.location.href='index.html'">
+    </form>
+
+</body>
+</html>
