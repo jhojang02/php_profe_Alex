@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de los Instructores</title>
+    <title>Eliminar Instructor</title>
 </head>
 <body>
     <center>
@@ -42,7 +42,22 @@
                 echo '</table>';
                 mysqli_close($conex)
                 ?>
+                <br>
         </font>
+    <form action="RegistroBorrado.php" method="post">
+    <b style="color:red">Ingrese el Codigo del instructor a Borrar:
+    <br><br>
+    <input type="text" name="cod" size="5"><br><br>
+    <input type="submit" value="Borrar Instructor">
+    </form>
     </center>
+    <br><br>
+    <center>
+    <form action="Registro_borrado_Instructor.php
+    " method="post">
+        <input type="submit" value="Ir al Menu Principal">
+    </form>
+    </center>
+
 </body>
 </html>
