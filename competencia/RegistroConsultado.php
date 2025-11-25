@@ -27,5 +27,8 @@
     }
     mysqli_close($conex);
     ?>
+    <form action="consultar_competencia.html" method="post">
+        <input type="submit" value="volver">
+    </form>
 </body>
 </html>

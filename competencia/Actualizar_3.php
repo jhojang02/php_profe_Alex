@@ -19,7 +19,7 @@
 
     <br><br><br><br>
     <form method="post" action="Actualizar_1.php">
-        <input type="submit" value="Menu Principal">
+        <input type="submit" value="Volver">
     </form>
     <br><br>
 </body>

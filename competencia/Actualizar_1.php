@@ -6,6 +6,7 @@
     <title>Actualizar Datos</title>
 </head>
 <body>
+    <center>
     <font face=tahoma>
     <?php 
     require_once 'conexion.php';
@@ -29,7 +30,11 @@
         <input type="text" name="cod" size=5><br><br>
         <input type="submit" value="buscar">
         </font>
+    </form><br><br>
+    <form action="Competencia.html" method="post">
+        <input type="submit" value="Ir al Menu Principal">
     </form>
     </font>
+    </center>
 </body>
 </html>

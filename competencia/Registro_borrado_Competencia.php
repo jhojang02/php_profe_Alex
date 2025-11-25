@@ -48,7 +48,7 @@
     </center>
     <br><br>
     <center>
-    <form action="Registro_borrado_Competencia.php" method="post">
+    <form action="Competencia.html" method="post">
         <input type="submit" value="Ir al Menu Principal">
     </form>
     </center>
