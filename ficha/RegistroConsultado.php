@@ -21,7 +21,7 @@
         echo 'Numero de Aprendices:'.$reg['NUM_APR_F'].'<br>';
         echo 'Programa de Formacion: '.$reg['PROG_F'].'<br>';
         echo '</th></tr></table>';
-        echo '<br><br><center><form action="consultar_ficha.html" method="post"><input type="submit" value="Ir al Menu Principal"></form></center>';
+        echo '<br><br><center><form action="consultar_ficha.html" method="post"><input type="submit" value="Volver"></form></center>';
     }else{
         echo '<center><h3><font color=red>El registro de la Ficha No Existe';
     }

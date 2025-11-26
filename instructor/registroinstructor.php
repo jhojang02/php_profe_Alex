@@ -48,6 +48,9 @@ while ($fila = mysqli_fetch_assoc($resultado)) {
     echo "</tr>";
 }
 ?>
+<form action="datos_instructor.html" method="post">
+    <input type="submit" value="Volver">
+</form>
         </table>
 </center>
 <?php

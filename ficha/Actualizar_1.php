@@ -22,14 +22,19 @@
     }
     mysqli_close($conex);
     ?>
-
+    <center>
     <form action="Actualizar_2.php" method="post">
         <font color=blue>
         Ingrese el codigo de la ficha a actualizar:<br><br>
         <input type="text" name="cod" size=5><br><br>
         <input type="submit" value="buscar">
+        <br><br>
+    <form action="Ficha.html" method="post">
+        <input type="submit" value="Ir al Menu Principal">
+    </form>
         </font>
     </form>
     </font>
+    </center>
 </body>
 </html>

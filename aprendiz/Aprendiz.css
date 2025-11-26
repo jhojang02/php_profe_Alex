@@ -1,6 +1,6 @@
 body {
-    background: #e8f0fe;
-    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c9d6ff, #e2e2e2);
+    font-family: "Inter", "Segoe UI", sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,47 +10,66 @@ body {
 }
 
 .menu_input {
-    background: white;
-    width: 450px;
-    padding: 40px;
-    border-radius: 18px;
-    box-shadow: 0px 6px 20px rgba(0,0,0,0.25);
+    width: 520px;
+    padding: 40px 50px;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 22px;
+    box-shadow: 0 12px 45px rgba(0,0,0,0.15);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.40);
     text-align: center;
 }
 
 h2 {
-    font-size: 40px;
-    color: #1d3557;
+    font-size: 32px;
+    color: #1b335f;
+    font-weight: 700;
     margin-bottom: 35px;
 }
 
 .botones_menu {
+    background: rgba(255, 255, 255, 0.30);
+    padding: 25px;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.4);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+.boton {
+    width: 100%;
+}
+
 input {
-    font-size: 22px;
-    padding: 12px 0;
-    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 14px;
     border: none;
-    background: #457b9d;
+    background: linear-gradient(135deg, #5a78f0, #7ea3ff);
     color: white;
     cursor: pointer;
     transition: 0.25s ease-in-out;
-    box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 5px 14px rgba(0,0,0,0.15);
 }
 
 input:hover {
-    background: #1d3557;
-    transform: scale(1.05);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(80,80,200,0.35);
+    background: linear-gradient(135deg, #4d6ef7, #6f97ff);
 }
 
 input:active {
     transform: scale(0.97);
 }
 
-.menu {
-    margin-top: 40px;
+#ficha {
+    margin-top: 10px;
 }

@@ -53,8 +53,7 @@
     </center>
     <br><br>
     <center>
-    <form action="Registro_borrado_Aprendiz.php
-    " method="post">
+    <form action="Aprendiz.html" method="post">
         <input type="submit" value="Ir al Menu Principal">
     </form>
     </center>

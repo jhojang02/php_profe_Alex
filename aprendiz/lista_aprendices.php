@@ -44,5 +44,10 @@
                 ?>
         </font>
     </center>
+    <center>
+    <form action="Aprendiz.html" method="post">
+        <input type="submit" value="Ir al Menu Principal">
+    </form>
+    </center>
 </body>
 </html>

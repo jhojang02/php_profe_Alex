@@ -21,14 +21,11 @@
         echo 'Resultados de Aprendizaje: '.$reg['RESU_COM'].'<br>';
         echo 'Programa de Formacion: '.$reg['PROG_COM'].'<br>';
         echo '</th></tr></table>';
-        echo '<br><br><center><form action="consultar_competencia.html" method="post"><input type="submit" value="Ir al Menu Principal"></form></center>';
+        echo '<br><br><center><form action="consultar_competencia.html" method="post"><input type="submit" value="Volver"></form></center>';
     }else{
         echo '<center><h3><font color=red>El registro de la Competencia No Existe';
     }
     mysqli_close($conex);
     ?>
-    <form action="consultar_competencia.html" method="post">
-        <input type="submit" value="volver">
-    </form>
 </body>
 </html>

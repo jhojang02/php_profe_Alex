@@ -25,7 +25,7 @@
         $ff=$reg['FOT_INS'];
         echo "<br><br><img src=\"$ff\" width=200 height=200></img>";
         echo '</th></tr></table>';
-        echo '<br><br><center><form action="consultar_instructor.html" method="post"><input type="submit" value="Ir al Menu Principal"></form></center>';
+        echo '<br><br><center><form action="consultar_instructor.html" method="post"><input type="submit" value="Volver"></form></center>';
     }else{
         echo '<center><h3><font color=red>El registro del instructor No Existe';
     }
