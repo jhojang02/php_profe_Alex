@@ -32,12 +32,12 @@
         <input type="text" name="cod" size=5><br><br>
         <input type="submit" value="buscar">
         <br><br>
-    <form action="Instructor.html" method="post">
+        </form>
+        <form action="./Instructor.html" method="post">
         <input type="submit" value="Ir al Menu Principal">
-    </form>
+        </form>
         </font>
-    </form>
-    </font>
-    </center>
+        </font>
+        </center>
 </body>
 </html>

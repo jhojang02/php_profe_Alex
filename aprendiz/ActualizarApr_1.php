@@ -32,9 +32,9 @@
         <input type="text" name="cod" size=5><br><br>
         <input type="submit" value="buscar">
         <br><br>
+        </form>
     <form action="Competencia.html" method="post">
         <input type="submit" value="Ir al Menu Principal">
-    </form>
         </font>
     </form>
     </font>
