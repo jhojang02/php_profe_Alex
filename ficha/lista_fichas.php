@@ -38,6 +38,11 @@
                 mysqli_close($conex)
                 ?>
         </font>
+    </center><br><br>
+    <center>
+    <form action="Ficha.html" method="post">
+        <input type="submit" value="Ir al Menu Principal">
+    </form>
     </center>
 </body>
 </html>
